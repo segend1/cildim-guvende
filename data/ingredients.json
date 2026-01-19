@@ -1,0 +1,2561 @@
+[
+  {
+    "id": "ING_obqmbn33d",
+    "name": "609967 04 - ingredients  aqua",
+    "slug": "609967-04---ingredients-aqua",
+    "category": "Unknown",
+    "risk_score": 0,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güvenli doğal bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "doğal",
+      "güvenli"
+    ]
+  },
+  {
+    "id": "ING_pwlb9opoq",
+    "name": "Acetyl dipeptide-1 cetyl ester",
+    "slug": "acetyl-dipeptide-1-cetyl-ester",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_6d2fvoqg2",
+    "name": "Acrylamide",
+    "slug": "acrylamide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7ewh2brkv",
+    "name": "Acrylates",
+    "slug": "acrylates",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4arhmlqo5",
+    "name": "Acrylates copolymer",
+    "slug": "acrylates-copolymer",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_npnlpqe6n",
+    "name": "Acrylonitrile",
+    "slug": "acrylonitrile",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_6zb1ujpee",
+    "name": "Acryloyldi methyltaurate",
+    "slug": "acryloyldi-methyltaurate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_jo7b7r23z",
+    "name": "Alcohol denat",
+    "slug": "alcohol-denat",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_w4zzajqte",
+    "name": "Alcohol denat.",
+    "slug": "alcohol-denat.",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ocgrpfznr",
+    "name": "Alkyl acrylate crosspolymer",
+    "slug": "alkyl-acrylate-crosspolymer",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_uvndn6bym",
+    "name": "Alumina",
+    "slug": "alumina",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_c2lvi7shw",
+    "name": "Aluminum hydroxide",
+    "slug": "aluminum-hydroxide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_10sz3t35q",
+    "name": "Ammonium polyacryldimethyltauramide",
+    "slug": "ammonium-polyacryldimethyltauramide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_1h3pahml6",
+    "name": "Ammonium polyacryloyldimethyl taurate",
+    "slug": "ammonium-polyacryloyldimethyl-taurate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_3y6q1zksm",
+    "name": "Aqua",
+    "slug": "aqua",
+    "category": "Unknown",
+    "risk_score": 0,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güvenli doğal bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "doğal",
+      "güvenli"
+    ]
+  },
+  {
+    "id": "ING_3wsl7fowb",
+    "name": "Arginine pca",
+    "slug": "arginine-pca",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_optp7p45r",
+    "name": "Ascorbic acid",
+    "slug": "ascorbic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7o7x9dx93",
+    "name": "Benzoic acid",
+    "slug": "benzoic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_r0tf2bd62",
+    "name": "Bht",
+    "slug": "bht",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_8u2zb27el",
+    "name": "Bis-ethylhexyloxyphenol methoxyphenyl triazine",
+    "slug": "bis-ethylhexyloxyphenol-methoxyphenyl-triazine",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_a2kf4b1va",
+    "name": "Bis-peg-18 methyl ether dimethyl silane",
+    "slug": "bis-peg-18-methyl-ether-dimethyl-silane",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_io4vvlt9l",
+    "name": "But y lene g l y c o l",
+    "slug": "but-y-lene-g-l-y-c-o-l",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_dkuv3rkiu",
+    "name": "Butyl methoxydibenzoylmethane",
+    "slug": "butyl-methoxydibenzoylmethane",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_bjqq8tiho",
+    "name": "Butylene glycol",
+    "slug": "butylene-glycol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_su3sfe4bh",
+    "name": "Butyrospermum parkii butter",
+    "slug": "butyrospermum-parkii-butter",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ehi133ylv",
+    "name": "C12-15 alkyl benzoate",
+    "slug": "c12-15-alkyl-benzoate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7g89sx22b",
+    "name": "C12-22 alkyl acrylate",
+    "slug": "c12-22-alkyl-acrylate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7pahsxyh2",
+    "name": "Caprylic",
+    "slug": "caprylic",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_s82e6687q",
+    "name": "Capryloyl salicylic acid",
+    "slug": "capryloyl-salicylic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ilmziwjqa",
+    "name": "Caprylyl glycol",
+    "slug": "caprylyl-glycol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_hqmmc9t5p",
+    "name": "Carnosine",
+    "slug": "carnosine",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_kgkmjx2ik",
+    "name": "Cera alba",
+    "slug": "cera-alba",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7hihq5fk5",
+    "name": "Cera microcristallina",
+    "slug": "cera-microcristallina",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_zmc4wbzxu",
+    "name": "Cetearyl alcohol",
+    "slug": "cetearyl-alcohol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_c6jlr988n",
+    "name": "Cetyl alcohol",
+    "slug": "cetyl-alcohol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_lz9w2llng",
+    "name": "Ci 77491",
+    "slug": "ci-77491",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4ga3nip09",
+    "name": "Ci 77492",
+    "slug": "ci-77492",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_l0j8v61ih",
+    "name": "Ci 77499",
+    "slug": "ci-77499",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_3w8rpmbi2",
+    "name": "Ci 77891",
+    "slug": "ci-77891",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_fl9nlherx",
+    "name": "Citric acid",
+    "slug": "citric-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_zcfpo18n1",
+    "name": "Cocamide mea",
+    "slug": "cocamide-mea",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ue2hoxois",
+    "name": "Coco-betaine",
+    "slug": "coco-betaine",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7nrjpkpny",
+    "name": "Copolymer",
+    "slug": "copolymer",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_c40sw1lnz",
+    "name": "Crosspolymer",
+    "slug": "crosspolymer",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_fm81mohl7",
+    "name": "D i m e t h i c o n e",
+    "slug": "d-i-m-e-t-h-i-c-o-n-e",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_83m59ghuf",
+    "name": "Decyl glucoside",
+    "slug": "decyl-glucoside",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4ie79oy6h",
+    "name": "Dicaprylyl ether",
+    "slug": "dicaprylyl-ether",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_3x9hovit9",
+    "name": "Diethylhexyl butamido triazone",
+    "slug": "diethylhexyl-butamido-triazone",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_c0dcp11g0",
+    "name": "Diisopropyl adipate",
+    "slug": "diisopropyl-adipate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_g3r3hkaly",
+    "name": "Diisopropyl sebacate",
+    "slug": "diisopropyl-sebacate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_e9uqkecqa",
+    "name": "Dimethicone",
+    "slug": "dimethicone",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_e1yuogf7v",
+    "name": "Dimethicone crosspolymer",
+    "slug": "dimethicone-crosspolymer",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_rza6bo0az",
+    "name": "Dimethiconol",
+    "slug": "dimethiconol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_we9n0p0zg",
+    "name": "Disodium edta",
+    "slug": "disodium-edta",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_j6nywbf5s",
+    "name": "Drometrizole trisiloxane",
+    "slug": "drometrizole-trisiloxane",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_h9e9q8jdu",
+    "name": "Ethylhexyl palmitate",
+    "slug": "ethylhexyl-palmitate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_3x0xx9j68",
+    "name": "Ethylhexyl salicylate",
+    "slug": "ethylhexyl-salicylate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_yn7j76bzv",
+    "name": "Ethylhexyl triazone",
+    "slug": "ethylhexyl-triazone",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_e0bfhi5nu",
+    "name": "G l y c e r i n",
+    "slug": "g-l-y-c-e-r-i-n",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_9w6gswxu1",
+    "name": "Glyceryl stearate",
+    "slug": "glyceryl-stearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4omaa1bdh",
+    "name": "Glyceryl stearate se",
+    "slug": "glyceryl-stearate-se",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_31510sn6k",
+    "name": "Glycine soja",
+    "slug": "glycine-soja",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_7x52cmsad",
+    "name": "Hexylene glycol",
+    "slug": "hexylene-glycol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_6ppi7ch7t",
+    "name": "Homosalate",
+    "slug": "homosalate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_iq7k0y7u7",
+    "name": "Hydrogenated lecithin",
+    "slug": "hydrogenated-lecithin",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_a93gam77p",
+    "name": "Hydrogenated vegetable oil",
+    "slug": "hydrogenated-vegetable-oil",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_xcz04cysh",
+    "name": "Hydrolyzed hyaluronic acid",
+    "slug": "hydrolyzed-hyaluronic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_2o1x5aj8e",
+    "name": "Hydrolyzed linseed extract",
+    "slug": "hydrolyzed-linseed-extract",
+    "category": "Unknown",
+    "risk_score": 0,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güvenli doğal bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "doğal",
+      "güvenli"
+    ]
+  },
+  {
+    "id": "ING_io79vfcaa",
+    "name": "Hydroxyethylpiperazine ethane sulfonic acid",
+    "slug": "hydroxyethylpiperazine-ethane-sulfonic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_k43wgwgcs",
+    "name": "Hydroxypropyl methylcellulose",
+    "slug": "hydroxypropyl-methylcellulose",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_mhdttcwqo",
+    "name": "Hydroxypropyl tetrahydropyrantriol",
+    "slug": "hydroxypropyl-tetrahydropyrantriol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ef0mcrsb3",
+    "name": "Instrumental test",
+    "slug": "instrumental-test",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_p03754apb",
+    "name": "Isobutane",
+    "slug": "isobutane",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ftsbejy5x",
+    "name": "Isocetyl stearate",
+    "slug": "isocetyl-stearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_epc4h94ae",
+    "name": "Isohexadecane",
+    "slug": "isohexadecane",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_kwt846s8e",
+    "name": "Isopropyl titanium triisostearate",
+    "slug": "isopropyl-titanium-triisostearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_dkgqnfnin",
+    "name": "Limnanthes alba seed oil",
+    "slug": "limnanthes-alba-seed-oil",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_rfkynrs52",
+    "name": "Madecassoside",
+    "slug": "madecassoside",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_lps0siphq",
+    "name": "Mannos e",
+    "slug": "mannos-e",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_efmwf04oy",
+    "name": "Mannose",
+    "slug": "mannose",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_sjjy1p9ci",
+    "name": "Menthol",
+    "slug": "menthol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_fx389vrcd",
+    "name": "Methyl methacrylate",
+    "slug": "methyl-methacrylate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_krpkkx0m7",
+    "name": "Methyldihydrojasmonate",
+    "slug": "methyldihydrojasmonate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_s47v7ualn",
+    "name": "Mica",
+    "slug": "mica",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_1ah2elho1",
+    "name": "Myristic acid",
+    "slug": "myristic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_0kl896h3z",
+    "name": "Myristyl malate phosphonic acid",
+    "slug": "myristyl-malate-phosphonic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_f4qdqc6mz",
+    "name": "Octyldodecanol",
+    "slug": "octyldodecanol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_p4um0nmdj",
+    "name": "Oryza sativa bran oil",
+    "slug": "oryza-sativa-bran-oil",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_5nc3erq56",
+    "name": "Palmitic acid",
+    "slug": "palmitic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_x0cr4zwmj",
+    "name": "Panthenol",
+    "slug": "panthenol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_65kfnjkch",
+    "name": "Paraffin",
+    "slug": "paraffin",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_zrab41pdb",
+    "name": "Paraffinum liquidum",
+    "slug": "paraffinum-liquidum",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_xqlbulixm",
+    "name": "Parfum",
+    "slug": "parfum",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_mw78hxlpz",
+    "name": "Peg",
+    "slug": "peg",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_45wnl44c2",
+    "name": "Peg-100 stearate",
+    "slug": "peg-100-stearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_8gbr589uu",
+    "name": "Peg-120 methyl glucose dioleate",
+    "slug": "peg-120-methyl-glucose-dioleate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_vd5zbzoka",
+    "name": "Peg-150 pentaerythrityl tetrastearate",
+    "slug": "peg-150-pentaerythrityl-tetrastearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_nh43s59ky",
+    "name": "Peg-20 stearate",
+    "slug": "peg-20-stearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_vrh5652ic",
+    "name": "Peg-5 pentaerythrityl ether",
+    "slug": "peg-5-pentaerythrityl-ether",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ikop6u57q",
+    "name": "Peg-6 caprylic",
+    "slug": "peg-6-caprylic",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_g6vpfiv2c",
+    "name": "Peg-8",
+    "slug": "peg-8",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_df4pjcohb",
+    "name": "Peg-8 laurate",
+    "slug": "peg-8-laurate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_0zc534jur",
+    "name": "Pentaerythrityl tetra-di-t-butyl h y d r o x y h y d r o c i n n ama t e",
+    "slug": "pentaerythrityl-tetra-di-t-butyl-h-y-d-r-o-x-y-h-y-d-r-o-c-i-n-n-ama-t-e",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_nk5o6a517",
+    "name": "Pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
+    "slug": "pentaerythrityl-tetra-di-t-butyl-hydroxyhydrocinnamate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_71vit8rnb",
+    "name": "Pentaerythrityl tetraethylhexanoate",
+    "slug": "pentaerythrityl-tetraethylhexanoate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_th1v80y1e",
+    "name": "Pentylene glycol",
+    "slug": "pentylene-glycol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_cy40a04a8",
+    "name": "Perlite",
+    "slug": "perlite",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_rsu1sz81i",
+    "name": "Phenoxyethanol",
+    "slug": "phenoxyethanol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_cl6ysnjiw",
+    "name": "Phenoxyethanol.",
+    "slug": "phenoxyethanol.",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_jcfpm8p5q",
+    "name": "Polybutene",
+    "slug": "polybutene",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_vkeg5bqws",
+    "name": "Polymethylsilsesquioxane",
+    "slug": "polymethylsilsesquioxane",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ca5qysgjh",
+    "name": "Polyquaternium-47",
+    "slug": "polyquaternium-47",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_hzpyqzc20",
+    "name": "Polysorbate 80",
+    "slug": "polysorbate-80",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_y3c6ltud4",
+    "name": "Potassium cetyl phosphate",
+    "slug": "potassium-cetyl-phosphate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_rcyi7bthg",
+    "name": "Potassium hydroxide",
+    "slug": "potassium-hydroxide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_akvnfsk7o",
+    "name": "Ppg-5 pentaerythrityl ether",
+    "slug": "ppg-5-pentaerythrityl-ether",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_9h6cv6bgy",
+    "name": "Propanediol",
+    "slug": "propanediol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_hws9zsjgy",
+    "name": "Propylene glycol",
+    "slug": "propylene-glycol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_zidgzigtg",
+    "name": "Prunus armeniaca kernel oil",
+    "slug": "prunus-armeniaca-kernel-oil",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_tpfh2um2w",
+    "name": "Salicylic acid",
+    "slug": "salicylic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_8c90atnrn",
+    "name": "Sarcosine",
+    "slug": "sarcosine",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_fqy98gp2w",
+    "name": "Serine",
+    "slug": "serine",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_2yifcc648",
+    "name": "Silica",
+    "slug": "silica",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_8xpfauo92",
+    "name": "Silica [nano]",
+    "slug": "silica-[nano]",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ri8x977q5",
+    "name": "Silica silylate",
+    "slug": "silica-silylate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_zaph76k2x",
+    "name": "Sodium benzoate",
+    "slug": "sodium-benzoate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_6k1np8o52",
+    "name": "Sodium chloride",
+    "slug": "sodium-chloride",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_h7sq436v9",
+    "name": "Sodium hyaluronate",
+    "slug": "sodium-hyaluronate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_tj5w5tt15",
+    "name": "Sodium hydroxide",
+    "slug": "sodium-hydroxide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_sfou8epey",
+    "name": "Sodium laureth sulfate",
+    "slug": "sodium-laureth-sulfate",
+    "category": "Unknown",
+    "risk_score": 8,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Potansiyel riskli bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "riskli",
+      "dikkat"
+    ]
+  },
+  {
+    "id": "ING_h1kgqv5vc",
+    "name": "Sodium polyacrylate",
+    "slug": "sodium-polyacrylate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4w51dryb0",
+    "name": "Sodium sa charin",
+    "slug": "sodium-sa-charin",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_byz2ku6fj",
+    "name": "Sodium stearoyl glutamate",
+    "slug": "sodium-stearoyl-glutamate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_wvtcc8arl",
+    "name": "Sorbitan oleate",
+    "slug": "sorbitan-oleate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_dgg6plvxe",
+    "name": "Steareth-10",
+    "slug": "steareth-10",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_npcnzqotn",
+    "name": "Stearic acid",
+    "slug": "stearic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4z713mhg5",
+    "name": "Stearyl alcohol",
+    "slug": "stearyl-alcohol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_6nb6qhu72",
+    "name": "Styrene",
+    "slug": "styrene",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_az0a1n9dm",
+    "name": "Sucrose tristearate",
+    "slug": "sucrose-tristearate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_ycr3igtut",
+    "name": "Synthetic wax",
+    "slug": "synthetic-wax",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_md6uljs70",
+    "name": "Tetrasodium edta",
+    "slug": "tetrasodium-edta",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_bm6tbodys",
+    "name": "Tin oxide",
+    "slug": "tin-oxide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_3vkediyoz",
+    "name": "Titanium dioxide",
+    "slug": "titanium-dioxide",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_xcqlvryo5",
+    "name": "Tocopherol",
+    "slug": "tocopherol",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_8zjphujka",
+    "name": "Toluene sulfonic acid",
+    "slug": "toluene-sulfonic-acid",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_1hlcph2c6",
+    "name": "Triethanolamine",
+    "slug": "triethanolamine",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_xot360c9o",
+    "name": "Trisodium ethylenediamine disuccinate",
+    "slug": "trisodium-ethylenediamine-disuccinate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4p3ntvx6b",
+    "name": "Xanthan gum",
+    "slug": "xanthan-gum",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_b9e5viu0g",
+    "name": "Zea mays starch",
+    "slug": "zea-mays-starch",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_3drx32cpt",
+    "name": "Zinc gluconate",
+    "slug": "zinc-gluconate",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_4cqpkyd5a",
+    "name": "Zinc pca",
+    "slug": "zinc-pca",
+    "category": "Unknown",
+    "risk_score": 3,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Orta seviye veya bilinmeyen risk.",
+    "is_vegan": true,
+    "tags": [
+      "bilinmiyor"
+    ]
+  },
+  {
+    "id": "ING_xm0yob4ss",
+    "name": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+    "slug": "acrylates/c10-30-alkyl-acrylate-crosspolymer",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_2csqv11yg",
+    "name": "Aluminum Starch Octenylsuccinate",
+    "slug": "aluminum-starch-octenylsuccinate",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_7h00yq1mh",
+    "name": "Ammonium Acryloyldimethyltaurate/VP Copolymer",
+    "slug": "ammonium-acryloyldimethyltaurate/vp-copolymer",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_hdk1v97hz",
+    "name": "Ascorbyl Glucoside",
+    "slug": "ascorbyl-glucoside",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_hsjf4rjvy",
+    "name": "C13-14 Isoparaffin",
+    "slug": "c13-14-isoparaffin",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_lj9ijq2k0",
+    "name": "Caprylic/Capric Triglyceride",
+    "slug": "caprylic/capric-triglyceride",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_b5qmrld2h",
+    "name": "Cellulose",
+    "slug": "cellulose",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_sx58ak733",
+    "name": "Ceteareth-20",
+    "slug": "ceteareth-20",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_sdnimzc23",
+    "name": "Chlorphenesin",
+    "slug": "chlorphenesin",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_epmsgqffb",
+    "name": "Ethylhexylglycerin",
+    "slug": "ethylhexylglycerin",
+    "category": "Unknown",
+    "risk_score": 0,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güvenli, nemlendirici veya doğal bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "doğal",
+      "güvenli"
+    ]
+  },
+  {
+    "id": "ING_wobeigexs",
+    "name": "Glycerin",
+    "slug": "glycerin",
+    "category": "Unknown",
+    "risk_score": 0,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güvenli, nemlendirici veya doğal bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "doğal",
+      "güvenli"
+    ]
+  },
+  {
+    "id": "ING_1fb3b1x2y",
+    "name": "Hydrolyzed Myrtus Communis Leaf Extract",
+    "slug": "hydrolyzed-myrtus-communis-leaf-extract",
+    "category": "Unknown",
+    "risk_score": 0,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güvenli, nemlendirici veya doğal bileşen.",
+    "is_vegan": true,
+    "tags": [
+      "doğal",
+      "güvenli"
+    ]
+  },
+  {
+    "id": "ING_iffq8nyut",
+    "name": "Laureth-7",
+    "slug": "laureth-7",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_ble9ow6ih",
+    "name": "Octocrylene",
+    "slug": "octocrylene",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_5oqy2xdb1",
+    "name": "PPG-15 Stearyl Ether",
+    "slug": "ppg-15-stearyl-ether",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_hn00lqszl",
+    "name": "Polyacrylamide",
+    "slug": "polyacrylamide",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_l2cquwd1h",
+    "name": "Retinol",
+    "slug": "retinol",
+    "category": "Unknown",
+    "risk_score": 5,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Güçlü aktif bileşen. Güneş hassasiyeti yaratabilir. Hamilelikte dikkat.",
+    "is_vegan": true,
+    "tags": [
+      "aktif",
+      "dikkat",
+      "anti-aging"
+    ]
+  },
+  {
+    "id": "ING_bjihwwt7i",
+    "name": "Steareth-21",
+    "slug": "steareth-21",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  },
+  {
+    "id": "ING_3co7jwm17",
+    "name": "Trisiloxane",
+    "slug": "trisiloxane",
+    "category": "Unknown",
+    "risk_score": 2,
+    "benefit_score": 0,
+    "comedogenic_rating": 0,
+    "source": "Simulation (User Script Port)",
+    "analysis": "Genel kozmetik bileşen. Bilinen major risk yok.",
+    "is_vegan": true,
+    "tags": [
+      "genel"
+    ]
+  }
+]

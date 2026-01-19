@@ -1,0 +1,146 @@
+[
+    {
+        "id": "RISK_001",
+        "name": "Formaldehyde",
+        "slug": "formaldehyde",
+        "category": "Preservative",
+        "risk_score": 10,
+        "benefit_score": 0,
+        "source": "ECHA Annex II / California Prop 65",
+        "analysis": "KESİN KANSEROJEN (Carcinogen). Solunum yolları ve cilt için toksiktir. AB Kozmetik Yönetmeliği Ek II'de yasaklıdır.",
+        "tags": [
+            "yasaklı",
+            "kanserojen",
+            "toksik"
+        ]
+    },
+    {
+        "id": "RISK_002",
+        "name": "Triclosan",
+        "slug": "triclosan",
+        "category": "Antimicrobial",
+        "risk_score": 9,
+        "benefit_score": 0,
+        "source": "ECHA Endocrine Disruptor Assessment",
+        "analysis": "Endokrin (hormon) bozucu etkisi kanıtlanmıştır. Bakteriyel direnç oluşturabilir. Tiroid hormonlarına müdahale eder.",
+        "tags": [
+            "hormon-bozucu",
+            "yüksek-risk"
+        ]
+    },
+    {
+        "id": "RISK_003",
+        "name": "Isobutylparaben",
+        "slug": "isobutylparaben",
+        "category": "Preservative",
+        "risk_score": 9,
+        "benefit_score": 0,
+        "source": "EU Commission Regulation (EU) No 358/2014",
+        "analysis": "AB tarafından güvenli bulunmadığı için YASAKLANMIŞTIR (Banned). Üreme sistemine toksik etki riski taşır.",
+        "tags": [
+            "yasaklı",
+            "paraben",
+            "hormon-etkisi"
+        ]
+    },
+    {
+        "id": "RISK_004",
+        "name": "Benzophenone",
+        "slug": "benzophenone",
+        "category": "UV Filter",
+        "risk_score": 8,
+        "benefit_score": 0,
+        "source": "California Proposition 65",
+        "analysis": "California Prop 65 listesinde 'Kanserojen' olarak işaretlenmiştir. Hormon bozucu şüphesi taşır.",
+        "tags": [
+            "kanserojen-şüphesi",
+            "güneş-koruyucu"
+        ]
+    },
+    {
+        "id": "RISK_005",
+        "name": "Dibutyl Phthalate",
+        "slug": "dibutyl-phthalate",
+        "category": "Plasticizer",
+        "risk_score": 10,
+        "benefit_score": 0,
+        "source": "ECHA Annex II / Prop 65",
+        "analysis": "Üreme zehiri (Reprotoxic). AB'de kozmetiklerde kullanımı tamamen yasaktır. Endokrin sistemini bozar.",
+        "tags": [
+            "yasaklı",
+            "kısırlık-riski",
+            "ftalat"
+        ]
+    },
+    {
+        "id": "RISK_006",
+        "name": "Sodium Lauryl Sulfate",
+        "slug": "sodium-lauryl-sulfate",
+        "category": "Surfactant",
+        "risk_score": 6,
+        "benefit_score": -5,
+        "source": "CIR Safety Assessment",
+        "analysis": "Güvenli kabul edilse de YÜKSEK iritasyon potansiyeli vardır. Cilt bariyerini zayıflatır ve kurutur. Hassas ciltler kaçınmalıdır.",
+        "tags": [
+            "tahriş-edici",
+            "kurutucu"
+        ]
+    },
+    {
+        "id": "SAFE_001",
+        "name": "Niacinamide",
+        "slug": "niacinamide",
+        "category": "Active",
+        "risk_score": 0,
+        "benefit_score": 10,
+        "source": "PubMed / Dermatology Journals",
+        "analysis": "Bilimsel olarak kanıtlanmış bariyer onarıcı. Anti-enflamatuar ve leke karşıtıdır. İnsan sağlığına zararı yoktur.",
+        "tags": [
+            "güvenli",
+            "onarıcı",
+            "vitamin"
+        ]
+    },
+    {
+        "id": "SAFE_002",
+        "name": "Glycerin",
+        "slug": "glycerin",
+        "category": "Humectant",
+        "risk_score": 0,
+        "benefit_score": 8,
+        "source": "CIR Safety Assessment",
+        "analysis": "Toksikolojik olarak tamamen güvenlidir. Cildin doğal yapısında bulunur ve nem tutar.",
+        "tags": [
+            "güvenli",
+            "nemlendirici"
+        ]
+    },
+    {
+        "id": "RISK_007",
+        "name": "Methylisothiazolinone",
+        "slug": "mit",
+        "category": "Preservative",
+        "risk_score": 9,
+        "benefit_score": 0,
+        "source": "SCCS Opinion on MIT",
+        "analysis": "SCCS tarafından 'Güçlü Bir Temas Alerjeni' (Sensitizer) olarak tanımlanmıştır. Durulanmayan ürünlerde AB'de yasaktır.",
+        "tags": [
+            "alerjen",
+            "yüksek-risk"
+        ]
+    },
+    {
+        "id": "RISK_008",
+        "name": "Retinol",
+        "slug": "retinol",
+        "category": "Active",
+        "risk_score": 5,
+        "benefit_score": 10,
+        "source": "SCCS Opinion (Vitamin A)",
+        "analysis": "Altın standarttır ancak hamilelikte teratojenik (bebekte anomali) riski nedeniyle önerilmez. Cildi inceltebilir.",
+        "tags": [
+            "dikkatli-kullanım",
+            "hamilelik-riski"
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "brand": "Bee Beauty",
+        "source_type": "gratis_exclusive",
+        "url": "https://www.gratis.com/bee-beauty-b-60026"
+    },
+    {
+        "brand": "Nivea",
+        "source_type": "official",
+        "url": "https://www.nivea.com.tr/urunler",
+        "listing_selector": ".product-item, .overview-product-item, .product-card",
+        "fallback_url": "https://www.gratis.com/nivea-b-60167"
+    },
+    {
+        "brand": "Cire Aseptine",
+        "source_type": "official",
+        "url": "https://www.anthemiscosmetics.com/tr/markalarimiz/cire-aseptine",
+        "listing_selector": ".product, .item",
+        "fallback_url": "https://www.gratis.com/cire-aseptine-b-60052"
+    },
+    {
+        "brand": "Dermokil",
+        "source_type": "official",
+        "url": "https://www.dermokil.com/tum-urunler",
+        "fallback_url": "https://www.gratis.com/dermokil-b-60074"
+    },
+    {
+        "brand": "Janssen Cosmetics",
+        "source_type": "official",
+        "url": "https://janssen-cosmetics.com.tr/magaza/",
+        "fallback_url": "https://www.gratis.com/janssen-cosmetics-b-60396"
+    },
+    {
+        "brand": "Benri",
+        "source_type": "gratis_exclusive",
+        "url": "https://www.gratis.com/benri-b-60029"
+    },
+    {
+        "brand": "Himalaya",
+        "source_type": "official",
+        "url": "https://himalayawellness.com.tr/kisisel-bakim/",
+        "fallback_url": "https://www.gratis.com/himalaya-b-60123"
+    },
+    {
+        "brand": "Nascita",
+        "source_type": "official",
+        "url": "https://www.nascita.com.tr/cilt-bakimi",
+        "fallback_url": "https://www.gratis.com/nascita-b-60160"
+    },
+    {
+        "brand": "Neutrogena",
+        "source_type": "official",
+        "url": "https://www.neutrogena.com.tr/urunler",
+        "fallback_url": "https://www.gratis.com/neutrogena-b-60164"
+    },
+    {
+        "brand": "Maruderm",
+        "source_type": "official",
+        "url": "https://maruderm.com/tumu",
+        "fallback_url": "https://www.gratis.com/maruderm-b-60688"
+    },
+    {
+        "brand": "Garnier",
+        "source_type": "official",
+        "url": "https://www.garnier.com.tr/urunler",
+        "fallback_url": "https://www.gratis.com/garnier-b-60107"
+    },
+    {
+        "brand": "Petite Maison",
+        "source_type": "official",
+        "url": "https://petitemaison.com.tr/shop/",
+        "fallback_url": "https://www.gratis.com/petite-maison-b-60810"
+    },
+    {
+        "brand": "Loreal Paris",
+        "source_type": "official",
+        "url": "https://www.lorealparis.com.tr/cilt-bakimi",
+        "fallback_url": "https://www.gratis.com/loreal-paris-b-60148"
+    },
+    {
+        "brand": "Celenes",
+        "source_type": "official",
+        "url": "https://celenesbysweden.com/tum-urunler/",
+        "fallback_url": "https://www.gratis.com/celenes-b-60431"
+    },
+    {
+        "brand": "The Purest Solutions",
+        "source_type": "official",
+        "url": "https://thepurestsolutions.com/collections/tum-urunler",
+        "fallback_url": "https://www.gratis.com/the-purest-solutions-b-60837"
+    },
+    {
+        "brand": "Pure Korean",
+        "source_type": "official",
+        "url": "https://purekorean.com/tum-urunler/",
+        "fallback_url": "https://www.gratis.com/pure-korean-b-60751"
+    },
+    {
+        "brand": "Mia Klinika",
+        "source_type": "official",
+        "url": "https://miaklinika.com/magaza/",
+        "fallback_url": "https://www.gratis.com/mia-klinika-b-60000"
+    },
+    {
+        "brand": "La Roche-Posay",
+        "source_type": "official-global",
+        "url": "https://www.laroche-posay.com.tr/",
+        "fallback_url": "https://www.gratis.com/la-roche-posay"
+    }
+]
