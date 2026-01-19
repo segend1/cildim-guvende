@@ -24,7 +24,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "Bu site tıbbi tavsiye verir mi?",
-        answer: "Hayır. 'Cildim Güvende' sadece ürünlerin içerik listelerini analiz ederek potansiyel riskli kimyasallar hakkında bilgi verir. Cilt hastalıklarınız veya alerjik reaksiyonlarınız için mutlaka bir dermatoloğa başvurmalısınız."
+        answer: "Hayır. 'Cildim Güvende' sadece ürünlerin içerik listelerini analiz ederek kimyasallar hakkında bilgi verir ve derecelendirir. İçeriklerde hata olabilir. Cilt hastalıklarınız veya alerjik reaksiyonlarınız için mutlaka bir dermatoloğa başvurmalısınız."
     },
     {
         question: "Hizmeti kullanmak ücretli mi?",
