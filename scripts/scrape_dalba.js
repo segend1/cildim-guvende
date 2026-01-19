@@ -19,77 +19,70 @@ async function scrapeProduct(page, url) {
     try {
         await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-        // 1. Close Popups (Shopify marketing) - Aggressive
+        // 1. Close Popups
         try {
-            const closers = await page.$$('.needsclick, button[aria-label="Close"], .klaviyo-close-form, .popup-close, svg[data-name="Close"], div[aria-label="Close form"]');
+            const closers = await page.$$('.needsclick, button[aria-label="Close"], .klaviyo-close-form, .popup-close, svg[data-name="Close"]');
             for (const c of closers) {
                 if (await c.isVisible()) await c.click();
             }
         } catch (e) { }
 
-        // 2. Title
-        const title = await page.evaluate(() => {
-            const h1 = document.querySelector('h1.product__title, h1.product-single__title, h1');
+        // 2. Title (Cleaned)
+        let title = await page.evaluate(() => {
+            const h1 = document.querySelector('h1.ProductMeta__Title, h1.product__title, h1');
             return h1 ? h1.innerText.trim() : document.title;
         });
+        // Remove [Price info] prefix
+        title = title.replace(/^\[.*?\]\s*/g, '').trim();
 
-        // 3. Image
+        // 3. Image (Shopify Prestige Theme)
         const image = await page.evaluate(() => {
+            // First try the main slideshow image
+            const slideImg = document.querySelector('.Product__Slideshow .Image--fadeIn, .Product__Slideshow img');
+            if (slideImg) {
+                let src = slideImg.getAttribute('data-original-src') || slideImg.getAttribute('data-src') || slideImg.src;
+                if (!src.startsWith('http')) src = 'https:' + src;
+                return src;
+            }
+            // Fallback
             const img = document.querySelector('.product__media img, .product-single__photo img');
             if (img) return img.src.startsWith('//') ? 'https:' + img.src : img.src;
             return '';
         });
 
-        // 4. Ingredients
+        // 4. Ingredients (Accordion)
         let ingredients = await page.evaluate(async () => {
             const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-            // Helper to clean text
             const clean = (text) => text ? text.replace(/\s+/g, ' ').trim() : '';
 
-            // Strategy A: Specific d'Alba Accordion
-            const ingBtn = Array.from(document.querySelectorAll('.ingredient-button')).find(b =>
-                b.innerText.toUpperCase().includes('FULL INGREDIENT LIST') || b.innerText.toUpperCase().includes('INGREDIENT')
-            );
-
-            if (ingBtn) {
-                ingBtn.click();
-                await wait(800);
-
-                const container = ingBtn.closest('.ingredient-item');
-                if (container) {
-                    const detail = container.querySelector('.ingredient-detail, .ingredient-content, .Custom_n3, p.Custom_n3');
-                    if (detail) return clean(detail.innerText);
-
-                    const allText = clean(container.innerText);
-                    const btnText = clean(ingBtn.innerText);
-                    if (allText.length > btnText.length + 20) {
-                        return allText.replace(btnText, '').trim();
-                    }
+            // Look for specific Dalba "Prestige" theme accordion
+            const items = document.querySelectorAll('.ingredient-item');
+            for (const item of items) {
+                const btn = item.querySelector('.ingredient-button');
+                if (btn && (btn.innerText.toUpperCase().includes('INGREDIENT') || btn.innerText.toUpperCase().includes('LIST'))) {
+                    btn.click();
+                    await wait(800);
+                    const content = item.querySelector('.ingredient-detail, .ingredient-content, p');
+                    if (content) return clean(content.innerText);
                 }
             }
 
-            // Strategy B: Search whole page for long text starting with Water/Aqua
-            // This is a robust fallback for static text or pre-expanded accordions
-            const allElements = document.querySelectorAll('p, div, span, li');
-            let bestMatch = '';
-            for (const el of allElements) {
-                const text = el.innerText;
-                // Check for standard ingredient starts
-                if (text.match(/^(Water|Aqua|Extract)/i) || text.includes('Water,') || text.includes('Aqua,')) {
-                    // Must be reasonably long to be a full list
-                    if (text.length > 50 && text.length > bestMatch.length) {
-                        // Avoid grabbing the whole body
-                        if (text.length < 5000) bestMatch = text;
+            // Fallback for non-accordion pages
+            const allText = document.body.innerText;
+            if (allText.includes('Water,') || allText.includes('Aqua,')) {
+                // Simple heuristic: find a paragraph with comma-separated ingredients
+                const paragraphs = document.querySelectorAll('p, div');
+                for (const p of paragraphs) {
+                    if ((p.innerText.includes('Water,') || p.innerText.includes('Aqua,')) && p.innerText.length > 50) {
+                        return clean(p.innerText);
                     }
                 }
             }
-            if (bestMatch) return clean(bestMatch);
 
             return '';
         });
 
-        // Cleanup
+        // Clean up common prefixes
         if (ingredients) {
             ingredients = ingredients.replace(/^Ingredients:?/i, '').trim();
         }
@@ -102,12 +95,7 @@ async function scrapeProduct(page, url) {
             brand: "d'Alba"
         };
 
-        if (product.ingredients.length > 20) {
-            console.log(`[Product] Success: ${title} (${product.ingredients.length} chars)`);
-        } else {
-            console.log(`[Product] No ingredients found for ${title}`);
-        }
-
+        console.log(`[Product] Success: ${title} (Img: ${image ? 'Yes' : 'No'}, Ing: ${ingredients.length} chars)`);
         return product;
 
     } catch (e) {
