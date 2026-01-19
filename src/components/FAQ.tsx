@@ -16,7 +16,7 @@ const faqs: FAQItem[] = [
     },
     {
         question: "Analizler neye dayanıyor?",
-        answer: "İçerik analizlerimiz, Avrupa Birliği Kozmetik Regülasyonları, Amerikan FDA verileri ve bağımsız bilimsel araştırmaların derlendiği veritabanlarına dayanır. Bu veriler ışığında ürünler, güncel bilimsel literatüre göre tarafsız olarak değerlendirilir."
+        answer: "İçerik analizlerimiz, Avrupa Birliği Kozmetik Regülasyonları, Amerikan FDA verileri ve bağımsız bilimsel araştırmaların derlendiği veritabanlarına dayanır. Bu veriler gelişmiş yapay zeka algoritmaları ile taranarak işlenir ve güncel bilimsel literatüre göre tarafsız olarak değerlendirilir."
     },
     {
         question: "Aradığım ürünü bulamazsam ne yapmalıyım?",
