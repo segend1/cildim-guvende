@@ -47,30 +47,26 @@ async function scrapeProduct(page, url) {
             // Helper to clean text
             const clean = (text) => text ? text.replace(/\s+/g, ' ').trim() : '';
 
-            // Strategy A: Custom Accordion Buttons (Click and Read)
-            const buttons = Array.from(document.querySelectorAll('button, .Product__AccordionTitle, .Collapsible__Button, .accordion-title'));
-            const ingBtn = buttons.find(b => {
-                const text = b.innerText.toLowerCase();
-                return text.includes('full ingredient') || (text.includes('ingredient') && !text.includes('key'));
-            }) || buttons.find(b => b.innerText.toLowerCase().includes('ingredient')); // Fallback to any ingredient button
+            // Strategy A: Specific d'Alba Accordion
+            const ingBtn = Array.from(document.querySelectorAll('.ingredient-button')).find(b =>
+                b.innerText.toUpperCase().includes('FULL INGREDIENT LIST') || b.innerText.toUpperCase().includes('INGREDIENT')
+            );
 
             if (ingBtn) {
                 ingBtn.click();
-                await wait(500); // Wait for animation
+                await wait(800);
 
-                // Try to find the content container relative to the button
-                // Often it's the next sibling or inside a parent wrapper
-                let sibling = ingBtn.nextElementSibling;
-                while (sibling) {
-                    if (sibling.innerText.length > 50 && (sibling.innerText.includes('Water') || sibling.innerText.includes('Extract'))) {
-                        return clean(sibling.innerText);
+                const container = ingBtn.closest('.ingredient-item');
+                if (container) {
+                    const detail = container.querySelector('.ingredient-detail, .ingredient-content, .Custom_n3, p.Custom_n3');
+                    if (detail) return clean(detail.innerText);
+
+                    const allText = clean(container.innerText);
+                    const btnText = clean(ingBtn.innerText);
+                    if (allText.length > btnText.length + 20) {
+                        return allText.replace(btnText, '').trim();
                     }
-                    sibling = sibling.nextElementSibling;
                 }
-
-                // If not found in siblings, look for common content classes
-                const content = ingBtn.parentElement.querySelector('.Collapsible__Inner, .Product__AccordionContent, .accordion-content');
-                if (content && content.innerText.length > 20) return clean(content.innerText);
             }
 
             // Strategy B: Search whole page for long text starting with Water/Aqua
