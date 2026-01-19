@@ -32,6 +32,11 @@ function merge() {
             // Ensure brand is set
             p.brand = "d'Alba";
 
+            // Ensure ID exists
+            if (!p.id) {
+                p.id = 'dalba-' + Math.random().toString(36).substr(2, 9);
+            }
+
             // Clean up ingredients slightly if needed (normalize spaces)
             if (p.ingredients) {
                 p.ingredients = p.ingredients.replace(/\s+/g, ' ').trim();
