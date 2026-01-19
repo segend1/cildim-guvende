@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { patchProduct } from '@/app/actions';
 import { cn } from '@/lib/utils';
 import { Pencil } from 'lucide-react';
+import Link from 'next/link';
 
 interface EditableTextProps {
     id: string;
@@ -14,10 +15,11 @@ interface EditableTextProps {
     as?: 'h1' | 'p' | 'span' | 'div';
     multiline?: boolean;
     onUpdate?: () => void;
+    href?: string;
 }
 
 export default function EditableText({
-    id, field, value: initialValue, isAdmin, className, as: Component = 'div', multiline = false, onUpdate
+    id, field, value: initialValue, isAdmin, className, as: Component = 'div', multiline = false, onUpdate, href
 }: EditableTextProps) {
     const [isEditing, setIsEditing] = useState(false);
     const [value, setValue] = useState(initialValue);
@@ -46,6 +48,13 @@ export default function EditableText({
     };
 
     if (!isAdmin) {
+        if (href) {
+            return (
+                <Link href={href} className={cn("hover:underline", className)}>
+                    <Component>{value}</Component>
+                </Link>
+            );
+        }
         return <Component className={className}>{value}</Component>;
     }
 

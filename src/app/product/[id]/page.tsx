@@ -103,6 +103,7 @@ export default function ProductPage() {
                                 isAdmin={isAdmin}
                                 as="div"
                                 className="text-sm font-medium text-primary uppercase tracking-wider inline-block"
+                                href={`/brands/${encodeURIComponent(product.brands)}`}
                             />
                             <EditableText
                                 id={product.code}
