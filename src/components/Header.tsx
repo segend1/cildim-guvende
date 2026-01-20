@@ -6,6 +6,8 @@ import { useState } from 'react';
 
 export default function Header() {
     const [isCategoryOpen, setIsCategoryOpen] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isMobileCategoryOpen, setIsMobileCategoryOpen] = useState(false);
 
     const categories = [
         { id: 'sun-care', name: 'Güneş Koruyucu' },
@@ -21,10 +23,12 @@ export default function Header() {
 
     return (
         <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-            <div className="container flex h-14 max-w-screen-2xl items-center">
+            <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
+
+                {/* Desktop Logo & Nav */}
                 <div className="mr-4 hidden md:flex">
                     <Link className="mr-6 flex items-center space-x-2" href="/">
-                        <span className="hidden font-bold sm:inline-block">Cildim Güvende</span>
+                        <span className="font-bold hidden sm:inline-block">Cildim Güvende</span>
                     </Link>
                     <nav className="flex items-center space-x-6 text-sm font-medium">
                         <div className="relative group">
@@ -61,18 +65,80 @@ export default function Header() {
                         </Link>
                     </nav>
                 </div>
-                <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-                    <div className="w-full flex-1 md:w-auto md:flex-none">
-                        {/* Search Placeholder */}
-                    </div>
-                    <nav className="flex items-center">
-                        <button className="md:hidden">
-                            <Menu className="h-5 w-5" />
-                            <span className="sr-only">Toggle Menu</span>
-                        </button>
-                    </nav>
+
+                {/* Mobile Logo (Centered or Left) */}
+                <div className="flex md:hidden">
+                    <Link className="flex items-center space-x-2" href="/">
+                        <span className="font-bold">Cildim Güvende</span>
+                    </Link>
                 </div>
+
+                {/* Mobile Hamburger Button */}
+                <div className="flex flex-1 items-center justify-end space-x-2 md:hidden">
+                    <button
+                        className="p-2"
+                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    >
+                        <Menu className="h-6 w-6" />
+                        <span className="sr-only">Toggle Menu</span>
+                    </button>
+                </div>
+
+                {/* Spacer for desktop layout balance */}
+                <div className="hidden md:flex flex-1 items-center justify-end"></div>
             </div>
+
+            {/* Mobile Menu Overlay */}
+            {isMobileMenuOpen && (
+                <div className="md:hidden border-t border-border/40 bg-background">
+                    <div className="container py-4 grid gap-4">
+                        <button
+                            className="flex items-center justify-between text-sm font-medium transition-colors hover:text-foreground/80"
+                            onClick={() => setIsMobileCategoryOpen(!isMobileCategoryOpen)}
+                        >
+                            <span>Kategoriler</span>
+                            <ChevronDown className={`h-4 w-4 transition-transform ${isMobileCategoryOpen ? 'rotate-180' : ''}`} />
+                        </button>
+
+                        {isMobileCategoryOpen && (
+                            <div className="grid gap-2 pl-4 border-l-2 border-border/50 ml-1">
+                                {categories.map((cat) => (
+                                    <Link
+                                        key={cat.id}
+                                        href={`/categories/${cat.id}`}
+                                        className="text-sm text-foreground/60 hover:text-foreground transition-colors py-1"
+                                        onClick={() => setIsMobileMenuOpen(false)}
+                                    >
+                                        {cat.name}
+                                    </Link>
+                                ))}
+                            </div>
+                        )}
+
+                        <Link
+                            className="text-sm font-medium transition-colors hover:text-foreground/80"
+                            href="/compare"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                            Karşılaştır
+                        </Link>
+                        <Link
+                            className="text-sm font-medium transition-colors hover:text-foreground/80"
+                            href="/brands"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                            Markalar
+                        </Link>
+                        <Link
+                            className="text-sm font-medium transition-colors hover:text-foreground/80"
+                            href="/"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                            Ara
+                        </Link>
+                    </div>
+                </div>
+            )}
         </header>
     );
 }
