@@ -23,7 +23,24 @@ export default function Home() {
             </Suspense>
           </div>
 
-
+          {/* Quick Links / Popular Categories */}
+          <div className="w-full flex flex-wrap justify-center gap-2 pt-4">
+            <p className="w-full text-xs text-muted-foreground font-medium uppercase tracking-wider mb-2">Popüler Kategoriler</p>
+            {[
+              { name: 'Güneş Kremi', slug: 'sun-care' },
+              { name: 'Temizleyici', slug: 'cleanser' },
+              { name: 'Nemlendirici', slug: 'face-care' },
+              { name: 'Serum', slug: 'serum' },
+            ].map((cat) => (
+              <a
+                key={cat.slug}
+                href={`/categories/${cat.slug}`}
+                className="px-4 py-2 text-sm bg-background border border-border/50 rounded-full shadow-sm hover:bg-secondary/50 hover:border-primary/20 transition-all duration-300"
+              >
+                {cat.name}
+              </a>
+            ))}
+          </div>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground pt-8">
             <span className="px-3 py-1 rounded-full bg-secondary/50 border border-secondary">✨ İçerik Analizi</span>
