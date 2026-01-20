@@ -14,7 +14,11 @@ export default function Home() {
           <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
             Cildin Ne Kadar <span className="text-primary">Güvende?</span>
           </h1>
-          Kullandığın kozmetik ürünlerinin içeriğini analiz et, cildin için uygun olanı bul ve daha sağlıklı seçimler yap.
+          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <strong>Kozmetik içerikleri inceleme</strong> platformu Cildim Güvende ile cildinize değer verin.
+            <strong>Doğal kozmetik</strong> arayışınızda, ürünlerin analizini yapın ve gelişmiş <strong>kozmetik karşılaştırma</strong> aracımızla en güvenli seçimi yapın.
+            Doğal kozmetik içerikleri ve sağlık skorları hakkında anında bilgi edinin.
+          </p>
 
 
           <div className="w-full pt-4">

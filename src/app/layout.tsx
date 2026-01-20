@@ -10,13 +10,22 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata: Metadata = {
   metadataBase: new URL('https://cildimguvende.com'),
   title: {
-    default: "Cildim Güvende | Kozmetik İçerik Analizi",
+    default: "Cildim Güvende | Kozmetik İçerik Analizi ve Karşılaştırma",
     template: "%s | Cildim Güvende"
   },
-  description: "Kullandığınız kozmetik ürünlerinin içinde ne olduğunu öğrenin. Cildim Güvende ile içerik analizi yapın, cildiniz için en güvenli ürünleri keşfedin.",
+  description: "Kozmetik içerikleri inceleme, içerik analizi ve ürün karşılaştırma platformu. Cildim Güvende ile doğal kozmetik ve içerik güvenliği hakkında detaylı bilgi alın.",
+  keywords: [
+    "kozmetik içerikleri inceleme",
+    "kozmetik içerik karşılaştırma",
+    "kozmetik karşılaştırma",
+    "doğal kozmetik",
+    "doğal kozmetik içerikleri",
+    "kozmetik analiz",
+    "içerik analizi"
+  ],
   openGraph: {
-    title: "Cildim Güvende",
-    description: "Kozmetik ürün içerik analizi ve güvenlik skoru.",
+    title: "Cildim Güvende | Kozmetik İçerik Analizi",
+    description: "Kozmetik ürün içerik analizi, doğal kozmetik incelemeleri ve ürün karşılaştırma.",
     url: "https://cildimguvende.com",
     siteName: "Cildim Güvende",
     locale: "tr_TR",
