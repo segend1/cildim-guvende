@@ -12,6 +12,7 @@ export interface Product {
     image_url?: string;
     ingredients_text?: string;
     categories?: string; // Added to match UI expectation
+    categoryId?: string;
 }
 
 // Helper type to handle raw JSON variance
@@ -38,7 +39,8 @@ export async function searchProducts(query: string): Promise<Product[]> {
             brands: p.brand,
             image_url: p.image,
             ingredients_text: p.ingredients,
-            categories: 'Cosmetics'
+            categories: 'Cosmetics',
+            categoryId: p.category
         }));
 
     return results;
@@ -54,7 +56,8 @@ export async function getProduct(code: string): Promise<Product | null> {
             brands: found.brand,
             image_url: found.image,
             ingredients_text: found.ingredients,
-            categories: 'Cosmetics'
+            categories: 'Cosmetics',
+            categoryId: found.category
         };
     }
 
@@ -78,7 +81,8 @@ export async function getProductsByBrand(brand: string): Promise<Product[]> {
             brands: p.brand,
             image_url: p.image,
             ingredients_text: p.ingredients,
-            categories: 'Cosmetics'
+            categories: 'Cosmetics',
+            categoryId: p.category
         }));
     return results;
 }
@@ -92,7 +96,8 @@ export async function getProductsByCategory(category: string): Promise<Product[]
             brands: p.brand,
             image_url: p.image,
             ingredients_text: p.ingredients,
-            categories: 'Cosmetics'
+            categories: 'Cosmetics',
+            categoryId: p.category
         }));
     return results;
 }

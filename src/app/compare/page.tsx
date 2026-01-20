@@ -5,7 +5,7 @@
 import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { getProduct, searchProducts, Product } from '@/lib/api';
+import { getProduct, searchProducts, getProductsByCategory, Product } from '@/lib/api';
 import { analyzeProductIngredients, RiskLevel } from '@/lib/safety';
 import { cn } from '@/lib/utils';
 import { AlertOctagon, AlertTriangle, ShieldCheck, Plus, X, ArrowRight, Search as SearchIcon } from 'lucide-react';
@@ -53,9 +53,39 @@ function CompareContent() {
     }, [searchParams]);
 
     // Live search for product selection
+    // Live search for product selection
+    useEffect(() => {
+        const fetchSuggestions = async () => {
+            if (isSearching) {
+                const otherProduct = isSearching === 'p1' ? p2 : p1;
+                if (otherProduct && otherProduct.categoryId) {
+                    const catProducts = await getProductsByCategory(otherProduct.categoryId);
+                    // Filter out the item itself
+                    const filtered = catProducts.filter(p => p.code !== otherProduct.code).slice(0, 10);
+                    if (!query) {
+                        setResults(filtered);
+                    }
+                } else {
+                    if (!query) {
+                        setResults([]);
+                    }
+                }
+            }
+        };
+        fetchSuggestions();
+    }, [isSearching, p1, p2]);
+
     useEffect(() => {
         if (!query) {
-            setResults([]);
+            // Re-trigger the suggestion logic if query becomes empty
+            const otherProduct = isSearching === 'p1' ? p2 : p1;
+            if (otherProduct && otherProduct.categoryId) {
+                getProductsByCategory(otherProduct.categoryId).then(res => {
+                    setResults(res.filter(p => p.code !== otherProduct.code).slice(0, 10));
+                });
+            } else {
+                setResults([]);
+            }
             return;
         }
         const delayDebounce = setTimeout(async () => {
@@ -63,7 +93,7 @@ function CompareContent() {
             setResults(res);
         }, 300);
         return () => clearTimeout(delayDebounce);
-    }, [query]);
+    }, [query, isSearching, p1, p2]);
 
     const handleSelectProduct = (product: Product) => {
         const newParams = new URLSearchParams(searchParams.toString());
