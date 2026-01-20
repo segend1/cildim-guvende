@@ -5,7 +5,7 @@
 import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { getProduct, searchProducts, getProductsByCategory, Product } from '@/lib/api';
+import { getProduct, searchProducts, getProductsByCategory, categoryNames, Product } from '@/lib/api';
 import { analyzeProductIngredients, RiskLevel } from '@/lib/safety';
 import { cn } from '@/lib/utils';
 import { AlertOctagon, AlertTriangle, ShieldCheck, Plus, X, ArrowRight, Search as SearchIcon } from 'lucide-react';
@@ -32,6 +32,7 @@ function CompareContent() {
     const [isSearching, setIsSearching] = useState<'p1' | 'p2' | null>(null);
     const [query, setQuery] = useState('');
     const [results, setResults] = useState<Product[]>([]);
+    const [suggestions, setSuggestions] = useState<Product[]>([]);
 
     useEffect(() => {
         const loadProducts = async () => {
@@ -54,46 +55,46 @@ function CompareContent() {
 
     // Live search for product selection
     // Live search for product selection
+    // Suggestion logic
     useEffect(() => {
+        if (!isSearching) {
+            setSuggestions([]);
+            return;
+        }
+
         const fetchSuggestions = async () => {
-            if (isSearching) {
-                const otherProduct = isSearching === 'p1' ? p2 : p1;
-                if (otherProduct && otherProduct.categoryId) {
+            const otherProduct = isSearching === 'p1' ? p2 : p1;
+            if (otherProduct && otherProduct.categoryId) {
+                try {
                     const catProducts = await getProductsByCategory(otherProduct.categoryId);
-                    // Filter out the item itself
-                    const filtered = catProducts.filter(p => p.code !== otherProduct.code).slice(0, 10);
-                    if (!query) {
-                        setResults(filtered);
-                    }
-                } else {
-                    if (!query) {
-                        setResults([]);
-                    }
+                    const filtered = catProducts.filter(p => p.code !== otherProduct.code).slice(0, 20);
+                    setSuggestions(filtered);
+                    // If query is empty, allow these to show
+                    if (!query) setResults(filtered);
+                } catch (e) {
+                    console.error("Failed to fetch suggestions", e);
                 }
+            } else {
+                setSuggestions([]);
+                if (!query) setResults([]);
             }
         };
         fetchSuggestions();
     }, [isSearching, p1, p2]);
 
+    // Search logic with debounce
     useEffect(() => {
         if (!query) {
-            // Re-trigger the suggestion logic if query becomes empty
-            const otherProduct = isSearching === 'p1' ? p2 : p1;
-            if (otherProduct && otherProduct.categoryId) {
-                getProductsByCategory(otherProduct.categoryId).then(res => {
-                    setResults(res.filter(p => p.code !== otherProduct.code).slice(0, 10));
-                });
-            } else {
-                setResults([]);
-            }
+            setResults(suggestions);
             return;
         }
+
         const delayDebounce = setTimeout(async () => {
             const res = await searchProducts(query);
             setResults(res);
         }, 300);
         return () => clearTimeout(delayDebounce);
-    }, [query, isSearching, p1, p2]);
+    }, [query, suggestions]);
 
     const handleSelectProduct = (product: Product) => {
         const newParams = new URLSearchParams(searchParams.toString());
@@ -150,12 +151,19 @@ function CompareContent() {
                     <ComparisonAnalysis p1={p1} p2={p2} />
                 )}
 
-                {/* Search Modal Overlay */}
                 {isSearching && (
                     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-start justify-center pt-24 px-4">
                         <div className="bg-background w-full max-w-lg rounded-2xl shadow-2xl p-6 animate-in fade-in zoom-in-95 duration-200">
                             <div className="flex justify-between items-center mb-4">
-                                <h3 className="text-lg font-bold">Ürün Seç</h3>
+                                <h3 className="text-lg font-bold">
+                                    {(() => {
+                                        const otherProduct = isSearching === 'p1' ? p2 : p1;
+                                        if (!query && otherProduct?.categoryId) {
+                                            return `Önerilenler: ${categoryNames[otherProduct.categoryId] || otherProduct.categoryId}`;
+                                        }
+                                        return 'Ürün Seç';
+                                    })()}
+                                </h3>
                                 <button onClick={() => setIsSearching(null)}><X className="w-5 h-5" /></button>
                             </div>
                             <div className="relative">
@@ -187,6 +195,9 @@ function CompareContent() {
                                 ))}
                                 {query && results.length === 0 && (
                                     <div className="text-center py-8 text-muted-foreground">Sonuç bulunamadı</div>
+                                )}
+                                {!query && results.length === 0 && (
+                                    <div className="text-center py-8 text-muted-foreground">Önerilecek ürün bulunamadı. Lütfen arama yapın.</div>
                                 )}
                             </div>
                         </div>

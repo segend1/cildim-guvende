@@ -102,21 +102,21 @@ export async function getProductsByCategory(category: string): Promise<Product[]
     return results;
 }
 
+export const categoryNames: { [key: string]: string } = {
+    'sun-care': 'Güneş Koruyucu',
+    'face-care': 'Yüz Bakımı',
+    'body-care': 'Vücut Bakımı',
+    'cleanser': 'Temizleyici',
+    'deodorant': 'Deodorant',
+    'acne-care': 'Sivilce Bakımı',
+    'eye-care': 'Göz Bakımı',
+    'hand-care': 'El Bakımı',
+    'serum': 'Serum',
+    'other': 'Diğer'
+};
+
 export async function getCategories(): Promise<{ id: string, name: string, count: number }[]> {
     const categoryMap = new Map<string, { name: string, count: number }>();
-
-    const categoryNames: { [key: string]: string } = {
-        'sun-care': 'Güneş Koruyucu',
-        'face-care': 'Yüz Bakımı',
-        'body-care': 'Vücut Bakımı',
-        'cleanser': 'Temizleyici',
-        'deodorant': 'Deodorant',
-        'acne-care': 'Sivilce Bakımı',
-        'eye-care': 'Göz Bakımı',
-        'hand-care': 'El Bakımı',
-        'serum': 'Serum',
-        'other': 'Diğer'
-    };
 
     (products as RawProduct[]).forEach(p => {
         if (p.category) {
