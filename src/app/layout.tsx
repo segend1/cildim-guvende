@@ -21,7 +21,13 @@ export const metadata: Metadata = {
     siteName: "Cildim Güvende",
     locale: "tr_TR",
     type: "website",
-  }
+  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({
