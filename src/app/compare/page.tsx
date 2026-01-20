@@ -5,7 +5,7 @@
 import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { getProduct, searchProducts, getProductsByCategory, categoryNames, Product } from '@/lib/api';
+import { getProduct, searchProducts, getProductsByCategory, getProductsByBrand, categoryNames, Product } from '@/lib/api';
 import { analyzeProductIngredients, RiskLevel } from '@/lib/safety';
 import { cn } from '@/lib/utils';
 import { AlertOctagon, AlertTriangle, ShieldCheck, Plus, X, ArrowRight, Search as SearchIcon } from 'lucide-react';
@@ -64,11 +64,22 @@ function CompareContent() {
 
         const fetchSuggestions = async () => {
             const otherProduct = isSearching === 'p1' ? p2 : p1;
-            if (otherProduct && otherProduct.categoryId) {
+            if (otherProduct) {
                 try {
-                    const catProducts = await getProductsByCategory(otherProduct.categoryId);
-                    const filtered = catProducts.filter(p => p.code !== otherProduct.code).slice(0, 20);
+                    let suggested: Product[] = [];
+
+                    if (otherProduct.categoryId) {
+                        const catProducts = await getProductsByCategory(otherProduct.categoryId);
+                        suggested = catProducts;
+                    } else if (otherProduct.brands) {
+                        // Fallback to brand
+                        const brandProducts = await getProductsByBrand(otherProduct.brands);
+                        suggested = brandProducts;
+                    }
+
+                    const filtered = suggested.filter(p => p.code !== otherProduct.code).slice(0, 20);
                     setSuggestions(filtered);
+
                     // If query is empty, allow these to show
                     if (!query) setResults(filtered);
                 } catch (e) {
@@ -158,8 +169,13 @@ function CompareContent() {
                                 <h3 className="text-lg font-bold">
                                     {(() => {
                                         const otherProduct = isSearching === 'p1' ? p2 : p1;
-                                        if (!query && otherProduct?.categoryId) {
-                                            return `Önerilenler: ${categoryNames[otherProduct.categoryId] || otherProduct.categoryId}`;
+                                        if (!query && otherProduct) {
+                                            if (otherProduct.categoryId) {
+                                                return `Önerilenler: ${categoryNames[otherProduct.categoryId] || otherProduct.categoryId}`;
+                                            }
+                                            if (otherProduct.brands) {
+                                                return `Önerilenler: ${otherProduct.brands}`;
+                                            }
                                         }
                                         return 'Ürün Seç';
                                     })()}
